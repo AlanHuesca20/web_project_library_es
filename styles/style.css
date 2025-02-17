@@ -1,11 +1,10 @@
 .page {
-  width: 1600px;
   margin: auto;
   font-family: Arial;
   font-size: 16px;
   line-height: 20px;
-  min-width: auto;
-  max-width: fit-content;
+  min-width: 1100px;
+  max-width: 1600px;
 }
 
 .header {
@@ -94,7 +93,7 @@
   padding: 100px 0 140px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .staff__title {
@@ -159,6 +158,6 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  margin-top: auto;
+  margin: auto;
   list-style-type: auto;
 }
