@@ -340,31 +340,41 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
 }
 
 .footer__columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
 }
 
 .footer__column_content_hours {
+  right: auto;
 }
 
 .footer__column_content_social {
+  right: 80px;
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
+  bottom: 20px;
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .footer__list-item {
+  top: 16px;
 }
 
 .footer__column-link {
@@ -373,7 +383,11 @@
 }
 
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
+  left: 10px;
 }
 
 .footer__copyright {
+  bottom: 100px;
 }
